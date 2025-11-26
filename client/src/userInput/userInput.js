@@ -1,4 +1,4 @@
-import { submitUser } from "../../services/service.js";
+import { submitUser } from "../services/service.js";
 
 const form = document.getElementById('userForm');
 const nameInput = document.getElementById('name');
