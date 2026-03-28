@@ -1,9 +1,9 @@
 <div align="center">
 
-<!-- Animated Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=4E0911&height=200&section=header&text=SIST%20Campus%20Navigator&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Real-time%20Campus%20Navigation%20%7C%20Sathyabama%20Institute%20of%20Science%20%26%20Technology&descAlignY=58&descSize=16" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=4E0911&center=true&vCenter=true&width=600&lines=SIST+Campus+Navigator;Real-time+GPS+Tracking;Dijkstra+Pathfinding;Socket.io+Live+Updates" alt="Typing SVG" />
 
-<!-- Badges -->
+<br/>
+
 <p>
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
@@ -26,15 +26,6 @@
 ## What is this?
 
 **SIST Campus Navigator** is a full-stack real-time navigation and tracking system built for **Sathyabama Institute of Science and Technology**. Students can register, get turn-by-turn directions to any campus landmark using a graph-based pathfinding algorithm (Dijkstra), and share their live GPS location — while security personnel monitor all active users on a live map dashboard.
-
----
-
-## Live Demo
-
-| Service | URL |
-|---|---|
-| Frontend (Vercel) | [sistnavigation.vercel.app](https://sistnavigation.vercel.app) |
-| Backend API (Render) | [sistnavigation.onrender.com](https://sistnavigation.onrender.com) |
 
 ---
 
@@ -96,7 +87,7 @@
 │   │   │   ├── userInput.html
 │   │   │   ├── userInput.js           # Form validation + submission
 │   │   │   └── userInput.css
-│   │   ├── 📁 userpage/               # Navigation map (student view)
+│   │   ├── � userpage/               # Navigation map (student view)
 │   │   │   ├── user.html
 │   │   │   ├── user.js                # Dijkstra + GPS + Socket.io
 │   │   │   └── user.css
@@ -109,13 +100,13 @@
 │   └── 📄 vercel.json                 # Vercel static deployment config
 │
 └── 📁 server/
-    ├── 📄 index.js                    # Express + Socket.io + MongoDB setup
+    ├── � index.js                    # Express + Socket.io + MongoDB setup
     └── 📁 src/
         ├── 📁 controllers/
         │   └── userController.js      # POST /users handler
         ├── 📁 model/
         │   └── userModel.js           # Mongoose User schema
-        └── 📁 router/
+        └── � router/
             └── userRouter.js          # API routes
 ```
 
@@ -138,7 +129,7 @@
 
 ## API Reference
 
-### POST `/api/v1/users`
+### `POST /api/v1/users`
 
 Register a new user.
 
@@ -202,39 +193,21 @@ MONGO_URI=your_mongodb_connection_string
 Start the server:
 
 ```bash
+# development
 npm run dev
+
+# production
+npm start
 ```
 
 ### 3. Serve the client
 
-The client is pure static HTML/CSS/JS. You can open it directly in a browser or serve it with any static server:
+The client is pure static HTML/CSS/JS. Open it directly or serve with any static server:
 
 ```bash
 cd client
 npx serve src
 ```
-
-Or deploy to Vercel using the included `vercel.json`.
-
----
-
-## Campus Landmarks
-
-The navigation system covers **60+ nodes** across the SIST campus including:
-
-- Central Library
-- Startup Cell
-- International Research Centre
-- Ocean Research Park
-- Block 1
-- Remibai Auditorium
-- Indoor Stadium
-- Boys & Girls Hostels
-- Sathyabama General Hospital
-- Administration Block
-- Main Canteen & Mess
-- New CSE Block
-- And many more...
 
 ---
 
@@ -250,6 +223,18 @@ The navigation system covers **60+ nodes** across the SIST campus including:
 
 ---
 
+## Campus Landmarks
+
+The navigation covers **60+ nodes** across SIST campus including:
+
+- Central Library · Startup Cell · International Research Centre
+- Ocean Research Park · Block 1 · Remibai Auditorium
+- Indoor Stadium · Boys & Girls Hostels
+- Sathyabama General Hospital · Administration Block
+- Main Canteen · New CSE Block · Main Arch · Dental Gate
+
+---
+
 ## Environment Variables
 
 | Variable | Description |
@@ -261,8 +246,6 @@ The navigation system covers **60+ nodes** across the SIST campus including:
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=4E0911&height=100&section=footer&animation=fadeIn" />
-
-<p>Built with ❤️ for Sathyabama Institute of Science and Technology</p>
+![footer](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=4000&pause=2000&color=4E0911&center=true&vCenter=true&width=500&lines=Built+with+%E2%9D%A4%EF%B8%8F+for+Sathyabama+Institute+of+Science+%26+Technology)
 
 </div>
