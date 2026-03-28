@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=4E0911&center=true&vCenter=true&width=600&lines=SIST+Campus+Navigator;Real-time+GPS+Tracking;Dijkstra+Pathfinding;Socket.io+Live+Updates" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=4E0911&center=true&vCenter=true&width=600&lines=SIST+Nav;Campus+Navigation+System;Real-time+GPS+Tracking;Dijkstra+Pathfinding;Socket.io+Live+Updates" alt="Typing SVG" />
 
 <br/>
 
